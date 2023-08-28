@@ -1,0 +1,147 @@
+.spaceX__homepage{
+    background-color: rgb(31, 31, 31);
+}
+
+.spaceX__homepage-header-hero{
+  height: 89vh;
+  background-image: url('../../media/Star6_8_DSC_6243_desktop_fab8367da5.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.spaceX__homepage-header__intro{
+  color: rgba(255, 255, 255, 0.804);
+  height: 100%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.spaceX__homepage-header__intro h1{
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+/* Homepage - quote */
+.spaceX__homepage-header__quote p{
+  padding: 2rem 2rem;
+  background-color:rgb(20, 19, 19) ;
+  text-align: center;
+  color: white;
+}
+
+/* Homepage - Capsule */
+.spaceX__homepage-header__capsule{
+  height: 80vh;
+  background-image: url('../../media/Dragon.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.spaceX__homepage__capsule-header{
+  height: 100%;
+  width: 40%;
+  color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.spaceX__homepage__capsule-header h1{
+  font-size: 2.5rem;
+}
+
+.spaceX__homepage-button{
+  padding: 1rem 2rem;
+  border: 2px solid white;
+  width: fit-content;
+  cursor: pointer;
+}
+
+/* Homepage - Rocket */
+.spaceX__homepage-header__rocket{
+  height: 100vh;
+  background-image: url('../../media/rocket.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Homepage - Dragon */
+.spaceX__homepage-header__dragon{
+  height: 100vh;
+  background-image: url('../../media/dragon.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Media quries */
+@media screen and (max-width:1200px) {
+  .spaceX__homepage-header__intro{
+    width: 50%;
+  }
+  .spaceX__homepage-header__intro h1{
+    font-size: 3rem;
+    font-weight: 500;
+  }
+  .spaceX__homepage__capsule-header{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .spaceX__homepage-header__intro h1{
+    font-size: 3rem;
+    font-weight: 500;
+  }
+  .spaceX__homepage-header__quote p{
+    font-size: 0.9rem;
+  }
+  .spaceX__homepage__capsule-header{
+    width: 60%;
+  }
+}
+
+@media screen and (max-width:750px) {
+  .spaceX__homepage-header__intro h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+  .spaceX__homepage-header__quote p{
+    font-size: 0.8rem;
+  }
+  .spaceX__homepage__capsule-header h1{
+    font-size: 1.5rem;
+  }
+  .spaceX__homepage-button{
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .spaceX__homepage-header__intro{
+    width: 100%;
+  }
+  .spaceX__homepage-header__intro h1{
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.681);
+  }
+  .spaceX__homepage-header__quote p{
+    font-size: 0.7rem;
+    padding: 1rem;
+  }
+  .spaceX__homepage__capsule-header{
+    width: 70%;
+    justify-content: flex-start;
+  }
+  .spaceX__homepage__capsule-header h1{
+    font-size: 1.1rem;
+  }
+  .spaceX__homepage__capsule-header p{
+    font-size: 0.7rem;
+  }
+}

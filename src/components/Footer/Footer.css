@@ -1,0 +1,26 @@
+.spaceX__footer{
+  min-height: 10rem;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-evenly ;
+  align-items: center;
+  background-color: black;
+  color: white;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.spaceX__footer p{
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.spaceX__footer p:hover{
+  color: rgb(217, 201, 201);
+}
+
+@media screen and (max-width:600px) {
+  .spaceX__footer p{
+    font-size: 0.7rem;
+  }
+}

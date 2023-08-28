@@ -1,0 +1,90 @@
+.spaceX__viewcapsule{
+  /* height: 100vh; */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),url('../../../media/viewCapsule.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+}
+
+table{
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgb(29, 35, 32);
+}
+
+table td{
+  text-align: center;
+  border: 2px solid white;
+  font-size: 1.3rem;
+  padding: 1rem 0;
+  min-height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+tr{
+  display: flex;
+}
+
+tr td:nth-child(1){
+  text-transform: uppercase;
+  font-weight: 500;
+  flex: 1;
+  color: aquamarine;
+}
+
+tr td:nth-child(2){
+  text-transform: uppercase;
+  font-weight: 300;
+  flex: 1;
+  
+}
+
+.spaceX__viewcapsule-backbtn{
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border: 2px solid white;
+  width: fit-content;
+  margin-left:10%;
+  background: radial-gradient(circle at 0% 12%, rgba(0, 0, 0, 1) 0%, rgba(73, 73, 73, 1) 100%);
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+}
+
+/* media queries */
+
+@media screen and (max-width:900px) {
+  table{
+    width: 90%;
+  }
+  table td{
+    font-size: 1rem;
+  }
+  .spaceX__viewcapsule-backbtn{
+    margin-left: 5%;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .spaceX__viewcapsule{
+    padding: 1rem;
+  }
+  table{
+    width: 95%;
+  }
+  table td{
+    font-size: 0.7rem;
+    padding: 0.5rem 0;
+  }
+
+  .spaceX__viewcapsule-backbtn{
+    padding: 0.25rem 0.5rem;
+    margin-left: 2.5%;
+    font-size: 0.8rem;
+  }
+}
